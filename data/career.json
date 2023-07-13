@@ -1,0 +1,56 @@
+[
+    {
+        "job":"Back End Developer",
+        "salary":"Rp4.000.000,00 - Rp9.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=back%20end%20developer&l&vjk=531b7c596ae0ee2f",
+        "img":"/img/backend.jpg"
+    },
+    {
+        "job":"DevOps Engineer",
+        "salary":"Rp14.000.000,00 - Rp16.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=devops%20engineer&l&vjk=d5a8557c4427e28b",
+        "img":"/img/devops.jpg"
+    },
+    {
+        "job":"Cloud Engineer",
+        "salary":"Rp7.000.000,00 - Rp10.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=cloud%20engineer&l&vjk=d5a8557c4427e28b",
+        "img":"/img/cloud.jpg"
+    },
+    {
+        "job":"QA Engineer",
+        "salary":"Rp7.000.000,00 - Rp12.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=qa%20engineer&l&vjk=6ed1ab89ab4e2b2a",
+        "img":"/img/qa.jpg"
+    },
+    {
+        "job":"Network Engineer",
+        "salary":"Rp5.000.000,00 - Rp12.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=Network%20Engineer&l=Bogor&radius=100&vjk=f686975d2b109a41",
+        "img":"/img/networkengineer.jpg"
+    },
+    {
+        "job":"System Administrator",
+        "salary":"Rp7.000.000,00 - Rp21.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=system%20administrator&l&vjk=e32290234cb1c5e6",
+        "img":"/img/systemadmin.jpg"
+    },
+    {
+        "job":"Software Engineer",
+        "salary":"Rp5.000.000,00 - Rp8.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=software%20engineer&l&vjk=d5a8557c4427e28b",
+        "img":"/img/softwareengineer.jpg"
+    },
+    {
+        "job":"Front End Developer",
+        "salary":"Rp5.000.000,00 - Rp7.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=front%20end%20developer&l&vjk=c18b18abb3bdf0a8",
+        "img":"/img/frontend.jpg"
+    },
+    {
+        "job":"Fullstack Developer",
+        "salary":"Rp11.200.000,00 - Rp20.000.000,00",
+        "vacancy":"https://id.indeed.com/jobs?q=full%20stack%20developer&l&vjk=59874df2af2a291b",
+        "img":"/img/fullstack.jpg"
+    }
+]

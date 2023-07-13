@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnus SIJA</title>
+    <link rel="shortcut icon" href="img/sija-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/alumnus.css"> <!--! CSS For trying -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.2/swiper-bundle.min.css" integrity="sha512-hhiS6muPW6W6KvaFQmuEL0KWnLpq01sQR/qns+GqBPVu9wBg7JG/touq/t0qhmzFTCbLAyFKtHyFnyentlqOOw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .alumnus-cards {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin: 9em 0 10%;
+        }
+        .alumnus-cards .alumnus-card-parent {
+            min-width: 30%;
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0 !important;
+        }
+        .alumnus-card-parent .top-card {
+            padding: 20px 0 !important;
+            display: flex !important;
+            align-items: center !important;
+        }
+        .footer {
+            padding-left: 2em;
+        }
+        @media (max-width: 765px) {
+          .alumnus-cards .alumnus-card-parent {
+            margin: 0 20px !important;
+          }
+          .alumnus-cards {
+            margin-top: 0;
+          }
+        }
+    </style>
+</head>
+<body>
+    <!-- * HEADER -->
+  <div class="bar-progress"></div>
+  <header class="grid-header">
+    <div class="left-side">
+      <!-- <div class="circle"></div> -->
+      <!-- <img src="img/3d-object-hd.png" alt="3D Object"> -->
+      <img src="img/3d-object-hd.png" alt="3D Object" class="bg3d">
+      <div class="text">
+        <h1>Mau Masuk SMK, tapi bingung pilih Jurusan apa? <span>SIJA aja..!</span></h1>
+        <p>Di sini kamu bisa mengembangkan minat dan bakat pada jurusan IT. <br><br> Kamu mungkin bingung apa itu SIJA?
+          Nah, kamu pasti ga asing dengan jurusan lainnya seperti TKJ ataupun RPL. Yak! SIJA merupakan perpaduan dari
+          kedua jurusan tersebut dengan program pembelajaran 4 Tahun. <br><br>Di SIJA Belajar apa sih? Di sini kita akan
+          belajar Networking, Cloud Computing dan tentunya Programming juga lohh!</p>
+      </div>
+      <div class="buttons">
+        <div class="button-1"><a href="https://sija.nevtik.org/#contact-us">Contact Us</a></div>
+        <div class="button-2"><a href="https://sija.nevtik.org/#video-sija">Play Video</a></div>
+      </div>
+    </div>
+    <div class="right-side">
+      <div class="img-preview my-slick">
+        <div class="box"><img src="img/IMG_5706_compress79.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5708_compress35.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5718_compress27.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5725_compress14.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5736_compress5.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5741_compress74.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5744_compress50.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5745_compress79.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5761.jpg" alt="Photo SIJA"></div>
+        <div class="box"><img src="img/IMG_5747-min.jpg" alt="Photo SIJA"></div>
+      </div>
+      <div class="img-desc"></div>
+      <div class="empty-space"></div>
+    </div>
+    <div class="menu" id="menu">
+      <div class="menu-header">
+        <a href="https://sija.nevtik.org/"><img src="img/sija-logo.png" alt="Logo"></a>
+        <!-- <i class="fa-solid fa-xmark menuLogo1" id="menuLogo1"></i> -->
+        <img class="menuLogo1" id="menuLogo1" src="https://img.icons8.com/ios-glyphs/90/undefined/delete-sign.png" />
+      </div>
+      <ul class="nav-lists-menu">
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/">Home</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#lulusan">Lulusan</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#skill">Skills</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#tenaga-pengajar">Kepala Program</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#career-path">Jenjang Karir</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#achievements">Prestasi</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#certification">Sertifikasi</a></li>
+          <li class="nav-list-menu"><a href="https://sija.nevtik.org/#contact-us">Contact Us</a></li>
+
+
+          <!-- <li class="nav-list-menu"><a href="/">Home</a></li>
+          <li class="nav-list-menu"><a href="/#lulusan">Lulusan</a></li>
+          <li class="nav-list-menu"><a href="/#skill">Skills</a></li>
+          <li class="nav-list-menu"><a href="/#tenaga-pengajar">Kepala Program</a></li>
+          <li class="nav-list-menu"><a href="/#career-path">Jenjang Karir</a></li>
+          <li class="nav-list-menu"><a href="/#achievements">Prestasi</a></li>
+          <li class="nav-list-menu"><a href="/#certification">Sertifikasi</a></li>
+          <li class="nav-list-menu"><a href="/#contact-us">Contact Us</a></li> -->
+
+      </ul>
+    </div>
+    <h1 class="title-photos">Cuplikan Gedung SIJA</h1>
+    <div class="down-side">
+      <div class="box"><img src="img/IMG_5706_compress79.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5708_compress35.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5718_compress27.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5725_compress14.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5736_compress5.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5741_compress74.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5744_compress50.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5745_compress79.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5761.jpg" alt="Image"></div>
+      <div class="box"><img src="img/IMG_5747-min.JPG" alt="Image"></div>
+    </div>
+    </div>
+  </header>
+
+  <!-- * NAVIGATION BAR -->
+  <nav>
+    <a href="https://sija.nevtik.org/"><img src="img/sija-logo-bg.png" alt="Logo"></a>
+    <ul class="nav-lists">
+      <li class="nav-list"><a href="https://sija.nevtik.org/">Home</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#lulusan">Lulusan</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#skill">Skills</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#tenaga-pengajar">Kepala Program</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#career-path">Jenjang Karir</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#achievements">Prestasi</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#certification">Sertifikasi</a></li>
+      <li class="nav-list"><a href="https://sija.nevtik.org/#contact-us">Contact Us</a></li>
+    </ul>
+    <!-- <ul class="nav-lists">
+      <li class="nav-list"><a href="/">Home</a></li>
+      <li class="nav-list"><a href="/#lulusan">Lulusan</a></li>
+      <li class="nav-list"><a href="/#skill">Skills</a></li>
+      <li class="nav-list"><a href="/#tenaga-pengajar">Kepala Program</a></li>
+      <li class="nav-list"><a href="/#career-path">Jenjang Karir</a></li>
+      <li class="nav-list"><a href="/#achievements">Prestasi</a></li>
+      <li class="nav-list"><a href="/#certification">Sertifikasi</a></li>
+      <li class="nav-list"><a href="/#contact-us">Contact Us</a></li>
+    </ul> -->
+    <i class="fa-solid fa-bars menuLogo2" id="menuLogo2"></i>
+  </nav>
+
+<!-- * ALUMNUS SECTION -->
+    <div class="alumnus-cards">
+                   
+    </div>
+
+    <!-- !footer -->
+    <footer id="contact-us">
+        <div class="about">SIJA</div>
+        <hr />
+        <div class="footer">
+          <a href="mailto:cibionebogor@yahoo.com" class="email"
+            >cibionebogor@yahoo.com</a
+          ><br />
+  
+          <div class="contact">
+            <div class="mr-danu">
+              <div class="name">Danu Winardi, ST</div>
+              <a href="https://wa.me/628121849933" target="_blank">+62 812-1849-933</a>
+            </div>
+            <div class="mrs-dayu">
+              <div class="name">Dayu Destamy Ariefin, S. Pd</div>
+              <a href="https://wa.me/6282280001162" target="_blank">+62 822-8000-1162</a>
+            </div>
+          </div>
+          <div class="competence">
+            <div>Home</div>
+            <div>Lulusan</div>
+            <div>Kepala Program</div>
+            <div>Contact us</div>
+          </div>
+          <div class="medsos">
+            <a
+              href="https://www.instagram.com/smkn1cbn_official/?hl=id"
+              class="insta"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/pages/SMKN%201%20Cibinong/117108228319018/"
+              class="facebook"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+          <div class="school">SMKN 1 CIBINONG</div>
+          <div class="copyright">&copy;2022 - 2023 sijastudent</div>
+        </div>
+        <div class="logo">
+          <img src="img/logosija.jpeg" alt="" class="logo2" />
+          <img class="logo1" src="img/logosmk.png" alt="" />
+          <img src="img/logonevtik.jpg" alt="" class="logo3" />
+        </div>
+      </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.2/swiper-bundle.min.js" integrity="sha512-EWat0/wkEZtE7OENhG700T+jmrpHStGS7CqHUAzKW5MzNnVEa9Wfb+zJjF4hoXSgMTWlixL5Fgqhjx5PAliaXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script> -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/alumnus.js"></script>
+</body>
+</html>

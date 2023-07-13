@@ -1,0 +1,209 @@
+:root {
+  --bgcolor-one: #041c32;
+  --bgcolor-two: #04293a;
+  --bgcolor-three: #064663;
+  --bgcolor-four: #ecb365;
+  --text-color-white: #fff;
+}
+
+.alumnus-cards {
+  margin: auto;
+  width: 82vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  /* margin-bottom: 10%; */
+}
+
+.alumnus-card-parent {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: auto 2em !important;
+}
+
+.alumnus-card-parent .top-card {
+  width: 100%;
+  height: 10%;
+  background-color: #000;
+  margin: auto;
+  border-radius: 20px 20px 0 0;
+}
+.alumnus-card-parent .top-card ul.dots {
+  height: 2em !important;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.alumnus-card {
+  display: flex;
+  position: relative;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  padding: 2em;
+  border-radius: 0 0 20px 20px;
+  /* transform: translateY(30px); */
+}
+
+.alumnus-card-parent:nth-child(3n-1) .alumnus-card {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+}
+
+.alumnus-card-parent:nth-child(3n) .alumnus-card {
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+}
+
+.alumnus-card .photo {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  width: 9em;
+  height: 9em;
+  background-color: #ffcc70;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.alumnus-card-parent.view-all a {
+  text-decoration: none;
+  /* display: block; */
+  padding: 1em 1.5em;
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 4em;
+}
+.alumnus-card-parent.view-all {
+  height: 14em;
+}
+.alumnus-card-parent.view-all .top-card {
+  height: 14%;
+}
+
+.alumnus-card img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.alumnus-card .biodata {
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  width: 40%;
+}
+
+.biodata .name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffe4c4;
+}
+
+.biodata .job {
+  color: #005a96;
+  font-weight: 700;
+}
+
+.biodata .salary {
+  color: #005a96;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.biodata .company {
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dots .dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  list-style: none;
+  /* transform: translate(-5em, -26em); */
+}
+
+.dot:nth-child(1) {
+  background-color: red;
+}
+
+.dot:nth-child(2) {
+  background-color: yellow;
+}
+
+.dot:nth-child(3) {
+  background-color: lightgreen;
+}
+
+section.alumnus-carousel {
+  /* background-image: url(../img/bg1.jpg); */
+  /* background-color: var(--bgcolor-three); */
+  background-size: cover;
+  background-position: center;
+  padding: 5em 0;
+  border-radius: 10px;
+}
+
+.alumnus-carousel .slick-arrow {
+  display: none;
+}
+
+@media screen and (max-width: 743px) {
+  .alumnus-card-parent {
+    width: 100%;
+  }
+  .alumnus-card-parent {
+    flex-direction: column;
+  }
+  .alumnus-carousel .slick-dots {
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .alumnus-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .alumnus-card .biodata {
+    width: 100%;
+    margin: 0;
+  }
+  .alumnus-card .biodata * {
+    width: 100%;
+  }
+}
+
+/* !-----------------------------------------------------------SLICK SLIDER WIDTH----------------------------------------- */
+.slick-slider {
+  max-width: 90vw;
+}
+.mobile-slider .slick {
+  max-width: 100vw;
+}
